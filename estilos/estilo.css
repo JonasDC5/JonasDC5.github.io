@@ -1,0 +1,48 @@
+body{
+   background-color: rgb(223, 221, 218);
+   font-family: 'Merriweather', serif;
+
+}
+
+.title {
+    color: rgb(187, 130, 44);
+    position: relative;
+    bottom: 50%;
+    left: 20%;
+    font-size: 500%;
+ 
+    }
+.header{
+    width: max-content;
+    }
+    
+.barra-head{
+    background-color: #8BC34A;
+    transition: 0.9s;
+}
+
+.barra-head:hover {
+    background-color: #079185;
+    background-image: none;
+     
+}
+
+.logo{
+    color: #079185;
+
+}
+.right{
+    background-color: rgb(21, 156, 89);
+    height: 200px;
+    width: 250px;
+    left: 80%;
+    top: 50%;
+    position: relative;
+    top: 0;
+    border-radius: 50%;
+    
+}
+.heladocamion{
+    height: fit-content;
+    border-radius: 50%;
+}
