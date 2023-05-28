@@ -24,7 +24,28 @@
         <h1 class="title">Heladeria Cono a Cono</h1>
 
     </header>
-    <p>Contacto</p>
+
+    <main>
+
+      <h2>Contacto</h2>
+      <form id="contacto-form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
     
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+    
+        <input type="submit" value="Enviar">
+      </form>
+    
+      <div id="mensaje-exito"></div>
+      <div id="mensaje-error"></div>
+
+    </main>
+    
+    <script src="formulario-js.js"></script>
 </body>
 </html>
